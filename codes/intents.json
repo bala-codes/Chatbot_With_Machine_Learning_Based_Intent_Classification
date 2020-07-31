@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hello how are you",
+        "Hi how do you do",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Alright thanks"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I need an appointment with the available doctor.",
+        "Is the doctor available?",
+        "I need to consult the doctor.",
+        "I want to meet the doctor",
+        "I need to do a usual checkup."
+      ],
+      "responses": [
+        "Sure thing, Dr.Lecun is available on Monday & Tuesday at Noon. Can I book an appointment ?",
+        "Sure thing, Dr.Benjio is available on Wednesday & Thursday at morning. Can I book an appointment ?",
+        "Sure thing, Dr.Andrew Ng is available on Friday & Saturday at night. Can I book an appointment ?",
+        "Sorry no doctor is available at the moment, please check back later."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "confirm",
+      "patterns": [
+        "Book an appointment with doctor lecun on monday",
+        "fix an appointment with doctor lecun on tuesday",
+        "Book an appointment with doctor benjio on Wednesday",
+        "fix an appointment with doctor benjio on Thursday",
+        "Book an appointment with doctor andrew on Friday",
+        "fix an appointment with doctor andrew on Saturday",
+        "yes please book an appointment with the doctor"
+      ],
+      "responses": [
+        "Thanks!!! We have confirmed you appointment. Will mail you the details.",
+        "Well done, I have fixed an appointment with the doctor. Will mail you the details."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sorry, I didn't get that, can you be more specific.",
+        "Excuse me very much, I am unable to reply at this moment"
+      ]
+    }
+  ]
+}
