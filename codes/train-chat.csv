@@ -1,0 +1,36 @@
+text,category
+Hi,greeting
+Hey,greeting
+How are you,greeting
+Is anyone there?,greeting
+Hello,greeting
+Hello how are you,greeting
+Hi how do you do,greeting
+Good day,greeting
+Bye,goodbye
+See you later,goodbye
+Goodbye,goodbye
+Alright thanks,goodbye
+Thanks,thanks
+Thank you,thanks
+That's helpful,thanks
+Thank's a lot!,thanks
+I need an appointment with the available doctor.,appointment
+Is the doctor available?,appointment
+I need to consult the doctor.,appointment
+I want to meet the doctor,appointment
+I need to do a usual checkup.,appointment
+Do you take credit cards?,payments
+Do you accept Mastercard?,payments
+Can I pay with Paypal?,payments
+Are you cash only?,payments
+Book an appointment with doctor lecun on monday,confirm
+fix an appointment with doctor lecun on tuesday,confirm
+Book an appointment with doctor benjio on Wednesday,confirm
+fix an appointment with doctor benjio on Thursday,confirm
+Book an appointment with doctor andrew on Friday,confirm
+fix an appointment with doctor andrew on Saturday,confirm
+yes please book an appointment with the doctor,confirm
+Tell me a joke!,unknown
+Tell me something funny!,unknown
+Do you know a joke?,unknown
