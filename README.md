@@ -1,4 +1,7 @@
-# CHATBOT WITH MACHINE LEARNIGN BASED INTENT CLASSIFICATION.
+# CHATBOT WITH MACHINE LEARNING BASED INTENT CLASSIFICATION.
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 In this project, I've built a ML based chatbot which classifies the intent of the user chat and provides prompt response and also mails to the user &amp; administrator if an appointment is booked for a specific doctor.
 
 Edit the [intents.json](https://github.com/bala-codes/CHATBOT-WITH-ML-BASED-INTENT-CLASSIFICATION/blob/master/codes/intents.json) file based on your use case and train the model completely here in [Google Colab](https://colab.research.google.com/github/bala-codes/CHATBOT-WITH-ML-BASED-INTENT-CLASSIFICATION/blob/master/codes/1.%20CHATBOT%20TRAINING.ipynb) or start chatting & customize the mail sending settings directly at [here](https://github.com/bala-codes/CHATBOT-WITH-ML-BASED-INTENT-CLASSIFICATION/blob/master/codes/2.%20CHAT_HERE.py)
